@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+img {
+
+    width: 100%;
+}
+
+.testo__inLine {
+    width: 500px;
+    height: 500px;
+    background-color: royalblue;
+    color: yellow;
+
+    /*   border: 10px solid red; */
+    /*  padding: 50px;
+    margin: 50px; */
+    /*   margin-left: 50px; */
+    /*   margin-bottom: 80px; */
+}
+
+.testo__Block {
+    width: 500px;
+    /* 500 + 80 l + 80 r +20 l + 20 r* = 700px*/
+    height: 500px;
+
+    /*    padding: 50px;
+    margin: 50px; */
+    background-color: royalblue;
+    color: yellow;
+
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding: 50px;
+    padding: 50px 80px;
+    border-color: red;
+    border-style: dotted;
+    border-width: 20px;
+    border: 10px solid red;
+
+
+}
+
+.container {
+    width: 510px;
+    border: 2px solid black;
+    /*     overflow: hidden; */
+
+}
+
+/* box model content box */

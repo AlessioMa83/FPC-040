@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>CSS</title>
+    <style>
+        /* selezinatore => di TAG */
+          .testo {
+            font-size: 60px;
+            color: hotpink;
+            background-color: darkorange;
+     
+        }
+
+        #uno_solo{
+            background-color: crimson; 
+            color: darkgreen;
+        }
+
+        p {
+            color: white;
+            background-color: #0000ff;
+            font-size: 20px;
+        }
+
+        html {
+            background-color: black;
+        }
+
+        body {
+            background-color: hwb(60 0% 0%);
+        }
+
+        html {
+            background-color: red;
+        }
+
+      
+    </style>
+</head>
+
+<body>
+    <h1>CSS</h1>
+    <p>Cascading Style Sheets</p>
+    <p style="font-size: 10px; color: red; background-color: aqua;">1° Css in line, regole di css inserite direttamente
+        sul tag html</p>
+    <P class="testo">2° Css on page, regole di css inserite all'interno della pagina</P>
+    <P>3° Css off page, regole di css inserite in un foglio esterno</P>
+
+    <h1>Selezionatore</h1>
+    <p>selezionatore di tag => recupero gli elementi con il tag HTML</p>
+    <p class="testo colore sfondo sottolineato" id="uno_solo">Selezionatore di classe => recupero con attributo class
+        (.)</p>
+    <p class="testo colore" id="sectionPrincipale">Selezionatore di id => recupero con attributo id (#)</p>
+</body>
+
+</html>

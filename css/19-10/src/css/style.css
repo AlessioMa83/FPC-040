@@ -1,0 +1,39 @@
+p{
+    color: red;
+    background-color: rgb(80,200,194);
+    font-size: 100px;
+    color: red;
+    
+}
+
+/* codici colori */
+/* 
+differenti set di colori
+codice esadecimale
+0->9 A->F
+#00 00 00 nero -> #FF FF FF bianco
+  r  g  b           r  g  b
+
+rgb(000, 000, 000) nero
+rgb(255, 255, 255) bianco   
+rgba(255, 255, 255, 0.5) bianco con opacità 50%
+
+*/
+
+
+/* 
+creare una pagina html 
+maggio r parte dei tag html
+
+indicare tutte le regole di stile css 
+colorre un div => e nel testo spiegare perchè il colore è quello
+inserire una regole su folgio esterno e spiegare perchè non funziona o perchè funziona
+fare un recap generale delle regole css viste
+
+
+
+
+
+*/
+
+

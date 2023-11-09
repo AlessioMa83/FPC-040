@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="decrizione la gestisco io" />
+    <title>image</title>
+</head>
+<body>
+    <h1>img/figure/picture </h1>
+
+<img width="50%" src="./src/foto/uno.jpg" alt="descrive il contenuto della foto"><!-- testo alternativo -->
+
+<figure>
+    <img width="50%" src="./src/foto/uno.jpg" alt="descrive il contenuto della foto"><!-- testo alternativo -->
+<figcaption>Descrizione della foto visibile</figcaption>
+</figure>
+
+<picture>
+    <source srcset="./src/foto/due.jpg" media="(max-width:600px)"> <!-- immagine per schermi piccoli -->
+    <source srcset="./src/foto/tre.jpg" media="(max-width:900px)" >
+    <!-- immagine per schermi piccoli -->
+    <img width="50%" src="./src/foto/uno.jpg" alt="">
+</picture>
+
+</body>
+</html>

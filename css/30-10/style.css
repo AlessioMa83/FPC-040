@@ -1,0 +1,22 @@
+span{
+    background-color: aqua;
+/*    display: inline-block; */
+display: inline-block;
+}
+p{
+    background-color: bisque;
+}
+
+.blocco, .inlinea{
+width: 50px;
+height: 350px;
+padding: 50px;
+margin-top: 60px;
+/* margin-bottom: 60px; */
+}
+
+.inlinea{
+    margin-bottom: 60px; 
+    margin-left: 60px;
+}
+

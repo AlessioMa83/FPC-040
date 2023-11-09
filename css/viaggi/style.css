@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* subheader */
+
+.subheader {
+    border: 1px solid red;
+    margin: 0 6%;
+}
+.subheader img{
+    width: 15%;
+}
+
+
+.subheader__top {
+    display: flex;
+    border: 1px solid green;
+    justify-content: space-between;
+}
+
+.subheader__sinistra {
+    border: 1px solid black;
+}
+
+.subheader__sinistra ul,.subheader__destra ul  {
+    display: flex;
+    gap: 30px;
+    font-size: 13px;
+    padding: 0 8px;
+}
+.subheader__destra span{
+    font-weight: 900;
+}
+.subheader__destra {
+    border: 1px solid coral;
+}
+
+.subheader__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid blue;
+}
+.logo, .testo__nome, .vuoto{
+    flex-basis: 33.33%;
+   
+}
+
+.testo__nome{
+    text-align: center;
+    font-size: 40px;
+}
+
+.wrapper__principale{
+    width: 100%;
+    background-color: #70a4a7;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.principale{
+    margin: 0 6%;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.principale .principale__uno{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.principale__uno li{
+    margin-right: auto;
+
+}
+
+.principale .principale__due{
+    display: flex;
+    align-items: center;
+}
+.principale li{
+    list-style-type: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 13px;
+    padding: 9px 0;
+}
+.principale__due li:nth-child(1){
+    background-color: red;
+    padding: 9px 15px;
+}
+.principale__due li:nth-child(2){
+    background-color: gold;
+    padding: 9px 15px;
+}
+.hero{
+    height: 80vh;
+    position: relative;
+    width: 100vw;
+}
+.hero img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}
+.hero__principale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    gap: 60px;
+}
+h1{
+   color: white; 
+   font-size: 40px;
+}
+
+
+/* navbar Princibale */
+
+/* hero section (Main) */
+
+/* rea sogni */
+
+/* viaggi di gruppo */
+
+/* viaggi invernali */
+
+/* tour viaggi */
+
+/* idee  */
+
+/* viaggi di gruppo */
+
+/* quanti giorni */
+
+/* grid  */
+
+/* video */
+
+/* footer */
+
+/* 
+
+media query monitor
+
+*/
+
+/* 
+
+media query tablet
+
+*/
+
+/* 
+
+media query  mobile
+
+*/
